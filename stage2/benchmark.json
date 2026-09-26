@@ -1,0 +1,36 @@
+{
+  "n_lines": 1869,
+  "n_distinct": 1669,
+  "duplicates": 200,
+  "per_set": {
+    "normal.jsonl": 1000,
+    "hard.jsonl": 200,
+    "hard1.jsonl": 69,
+    "hard2.jsonl": 200,
+    "hard3.jsonl": 400
+  },
+  "true": 819,
+  "false": 850,
+  "by_difficulty": {
+    "normal": 1000,
+    "hard": 669
+  },
+  "stages": {
+    "lattice": {
+      "fires": 1669,
+      "on_true": 819,
+      "on_false": 850
+    },
+    "collapse": {
+      "fires": 244,
+      "on_true": 244,
+      "on_false": 0
+    },
+    "search": {
+      "fires": 800,
+      "on_true": 0,
+      "on_false": 800,
+      "pct_of_false": 94.1
+    }
+  }
+}
