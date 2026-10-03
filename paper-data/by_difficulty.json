@@ -1,0 +1,48 @@
+{
+  "universe": {
+    "normal|True": 500,
+    "normal|False": 500,
+    "hard|False": 350,
+    "hard|True": 319
+  },
+  "stages": {
+    "lattice": {
+      "hard": {
+        "fires": 669,
+        "of": 669,
+        "pct": 100.0
+      },
+      "normal": {
+        "fires": 1000,
+        "of": 1000,
+        "pct": 100.0
+      }
+    },
+    "collapse": {
+      "hard": {
+        "fires": 1,
+        "of": 319,
+        "pct": 0.3
+      },
+      "normal": {
+        "fires": 243,
+        "of": 500,
+        "pct": 48.6
+      }
+    },
+    "search": {
+      "hard": {
+        "fires": 302,
+        "of": 350,
+        "pct": 86.3
+      },
+      "normal": {
+        "fires": 498,
+        "of": 500,
+        "pct": 99.6
+      }
+    }
+  },
+  "collapse_spread_pp": 48.3,
+  "search_spread_pp": 13.3
+}
